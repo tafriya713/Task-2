@@ -77,7 +77,7 @@ body {
   font-family: roboto;
 }
 .home-log h1 span {
-  color: rgb(68, 68, 172);
+  color: rgb(62, 62, 228);
 }
 .home-log h1 i {
   color: rgb(233, 204, 169);
@@ -147,3 +147,99 @@ body {
   object-fit: contain;
   /* Ensures overlay stays on top */
 }
+.introduction-section{
+  width:100%;
+  margin-top:100px;
+  background-color:;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  
+}
+.introduction-section-head{
+  background-color:;
+  width:45%;
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  font-size:30px;
+  font-family:roboto;
+
+
+}
+.introduction-section-head h1 span{
+  color:rgb(62, 62, 228); 
+}
+.introduction-section-p{
+  margin-top:20px;
+  width:28%;
+  color:rgb(80, 77, 77);
+  
+}
+.introduction-section-p .p2{
+  margin-left:18px;
+  margin-top:5px;
+}
+.card{
+  margin-top:40px;
+  width:68%;
+  display:flex;
+  display-direction:row;
+  justify-content:space-between;
+
+}
+.card i{
+  color:rgb(62, 62, 228);
+  font-size:30px;
+  margin-left:px;
+  margin-top:5px;
+}
+.card h5{
+  margin-top:7px;
+  font-size:17px;
+  color: rgb(52, 50, 50);
+}
+.card p{
+  margin-top:5px;
+  margin-left:10px;
+  color:rgb(80, 77, 77);
+}
+.donor  {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  width:28%;
+  height:165px;
+  background-color:white;
+  box-shadow:1px 1px 4px rgb(201, 197, 197);
+  border-radius:5px;
+  transition:0.4s;
+  
+}
+.donor:hover{
+  background-color:beige ;
+}
+.load-more{
+  margin-top:30px;
+  border:none;
+  background-color:  rgb(94, 94, 246);;
+  color:white;
+  width:8%;
+  height:35px;
+  border-radius:5px;
+  font-family:roboto;
+  font-size:14px;
+  transition:0.4s;
+}
+.load-more:hover{
+  background-color:rgb(30, 27, 27);
+}
+
+
+
+
+
+
+
